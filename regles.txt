@@ -1,0 +1,9 @@
+Si "Mean Radius" < 10, alors le diagnostic est "Bénigne"(la tumeur est bénigne).
+Si "Mean Smoothness" < 0.07 ou "Mean Smoothness" > 0.15, alors le diagnostic est "Bénigne".
+Si "Mean Perimeter" < 71, alors le diagnostic est "Bénigne".
+Si "Mean Perimeter" > 115, alors le diagnostic est "Maligne".
+Si "Mean Radius" > 18 et "Mean Perimeter" > 100 et "Mean Texture" > 19, alors le diagnostic est "Maligne".
+Si "Mean Radius" < 15 et "Mean Smoothness" < 0.12, alors le diagnostic est "Bénigne".
+Si "Mean Radius" > 15 et "Mean Smoothness" > 0.08, alors le diagnostic est "Maligne".
+Si "Mean Radius" < 15 et "Mean Texture" > 9 et "Mean Texture" < 23, alors le diagnostic est "Bénigne".
+Si "Mean Radius" > 15 et "Mean Texture" > 18, alors le diagnostic est "Maligne".
